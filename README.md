@@ -7,6 +7,7 @@ In the R environment, simply type in the following code to install and load the 
 ```sh
 library(devtools)
 install_github('osmanbeyoglulab/geneTFfilter')
+library(geneTFfilter)
 ```
 ## Usage
 Once the package has been loaded to the R environment, then call the function filter_geneTF(). 
