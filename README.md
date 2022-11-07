@@ -28,25 +28,24 @@ There are 5 parameters in the function call
        the lower bound of number of TFs targeting to the gene. The default is 5.
 ```
 
-Function return is filtered geneTF matrix.
+Function return the filtered geneTF matrix.
 
 Usage examples:
 ```sh
 filtered_geneTF <- filter_geneTF(geneTFprior, genelist)
 filtered_geneTF <- filter_geneTF(geneTFprior, genelist, gene_lowbound=20)
 ```
-User can extract filtered gene list by calling
+Filtered gene list can be extracted by calling
 ```sh
 filtered_genelist <- rownames(filtered_geneTF)
 ```
 
 Users can download "geneTFprior.csv" from "./data-raw" folder and send to function input of geneTF_prior. We archived the process on how we generated this prior matrix in the "./code/genereate_geneTFprior.R".
 
-We also provide a function 
+We also provide a function for convinient loading of geneTF prior matrix
 ```sh
 load_geneTF(filepath)
 ```
-for convinient loading of geneTF prior matrix
 
 usage example:
 ```sh
