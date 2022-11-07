@@ -1,0 +1,26 @@
+{
+    "id": "C1D42DB2",
+    "path": "C:/Users/XIM33/OneDrive - University of Pittsburgh/TFgene_obj/geneTFfilter/R/load_geneTF.R",
+    "project_path": "R/load_geneTF.R",
+    "type": "r_source",
+    "hash": "542967888",
+    "contents": "",
+    "dirty": false,
+    "created": 1667787603293.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "2,24",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1667789935,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1667789935861,
+    "read_only": false,
+    "read_only_alternatives": []
+}
