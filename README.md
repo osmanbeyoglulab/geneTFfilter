@@ -37,5 +37,5 @@ We also provide a function load_geneTF(filepath) for convinient loading of geneT
 
 usage example:
 ```sh
-geneTFprior <- oad_geneTF("./data-raw/geneTFprior.csv")
+geneTFprior <- load_geneTF("./data-raw/geneTFprior.csv")
 ```
