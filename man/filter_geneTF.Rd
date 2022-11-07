@@ -5,7 +5,7 @@
 \title{Filter geneTF prior based on the gene list user provided}
 \usage{
 filter_geneTF(
-  geneTF_matrix,
+  geneTF_prior,
   gene_list,
   TF_upbound = 0.8,
   TF_lowbound = 10,
@@ -13,7 +13,7 @@ filter_geneTF(
 )
 }
 \arguments{
-\item{geneTF_matrix}{geneTF prior}
+\item{geneTF_prior}{geneTF prior}
 
 \item{gene_list}{gene list user provided}
 
