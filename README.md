@@ -1,5 +1,5 @@
 # geneTFfilter
-geneTFfilter is an R package whose function is to filter geneTF prior matrix based on the gene list that the user provides.
+geneTFfilter is an R package whose function is to filter geneTF prior matrix based on the user-provided gene list.
 
 ## Install the package
 In the R environment, simply type in the following code to install and load the package
