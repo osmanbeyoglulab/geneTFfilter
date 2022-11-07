@@ -31,9 +31,9 @@ filter_geneTF(geneTFprior, gene_list)
 filter_geneTF(geneTFprior, gene_list, gene_lowbound=20)
 
 ```
-Users can download "geneTFprior.csv" from "./data-raw" folder. In the "./code" folder, we archive the process on how we generated this prior matrix.
+Users can download "geneTFprior.csv" from "./data-raw" folder. We archived the process on how we generated this prior matrix in the "./code/genereate_geneTFprior.R".
 
-We also provide function load_geneTF(filepath) for convinient loading of geneTF prior matrix
+We also provide a function load_geneTF(filepath) for convinient loading of geneTF prior matrix
 ```sh
 geneTFprior <- oad_geneTF("./data-raw/geneTFprior.csv")
 ```
