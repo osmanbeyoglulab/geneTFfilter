@@ -10,8 +10,9 @@ library(geneTFfilter)
 ```
 ## Usage
 Once the package has been loaded to the R environment, then call the function 
-
+```sh
 filter_geneTF(geneTF_prior, gene_list, TF_upbound=0.8, TF_lowbound=10, gene_lowbound=5). 
+```
 
 There are 5 parameters in the function call
 ```sh
@@ -36,7 +37,11 @@ filtered_geneTF <- filter_geneTF(geneTFprior, genelist, gene_lowbound=20)
 ```
 Users can download "geneTFprior.csv" from "./data-raw" folder and send to function input of geneTF_prior. We archived the process on how we generated this prior matrix in the "./code/genereate_geneTFprior.R".
 
-We also provide a function load_geneTF(filepath) for convinient loading of geneTF prior matrix
+We also provide a function 
+```sh
+load_geneTF(filepath)
+```
+for convinient loading of geneTF prior matrix
 
 usage example:
 ```sh
