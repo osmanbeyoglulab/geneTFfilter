@@ -12,8 +12,8 @@ Once the package has been loaded to the R environment, then call the function fi
 
 There are 5 parameters in the function call
 ```sh
-@param geneTF_matrix
-       geneTF prior
+@param geneTF_prior
+       geneTF prior matrix/dataframe
 @param gene_lis
        t gene list user provided
 @param TF_upbound (optional)
@@ -27,8 +27,8 @@ There are 5 parameters in the function call
 ```
 Usage examples:
 ```sh
-filter_geneTF(geneTFmatrix, gene_list)
-filter_geneTF(geneTFmatrix, gene_list, gene_lowbound=20)
+filter_geneTF(geneTFprior, gene_list)
+filter_geneTF(geneTFprior, gene_list, gene_lowbound=20)
 
 ```
 Users can download "geneTFprior.csv" from "./data-raw" folder. In the "./code" folder, we archive the process on how we generated this prior matrix.
