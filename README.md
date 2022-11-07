@@ -15,7 +15,7 @@ There are 5 parameters in the function call
 @param geneTF_prior
        geneTF prior matrix/dataframe
 @param gene_lis
-       t gene list user provided
+       user provided gene list
 @param TF_upbound (optional)
        the upper bound of percentage of TF targeted genes over all genes. The default is 80\%
 @param TF_lowbound (optional)
