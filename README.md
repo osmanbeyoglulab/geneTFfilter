@@ -5,7 +5,7 @@ geneTFfilter is an R package whose function is to filter geneTF prior matrix bas
 In the R environment, simply type in the following code to install and load the package
 ```sh
 library(devtools)
-install.github('osmanbeyoglulab/Dfilter')
+install.github('osmanbeyoglulab/geneTFfilter')
 ```
 ## Usage
 Once the package has been loaded to the R environment, then call the function filter_geneTF(). 
