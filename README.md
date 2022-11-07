@@ -29,8 +29,8 @@ There are 5 parameters in the function call
 ```
 Usage examples:
 ```sh
-filter_geneTF(geneTFprior, gene_list)
-filter_geneTF(geneTFprior, gene_list, gene_lowbound=20)
+geneTFprior <- filter_geneTF(geneTFprior, gene_list)
+geneTFprior <- filter_geneTF(geneTFprior, gene_list, gene_lowbound=20)
 
 ```
 Users can download "geneTFprior.csv" from "./data-raw" folder. We archived the process on how we generated this prior matrix in the "./code/genereate_geneTFprior.R".
@@ -71,8 +71,8 @@ There are 5 parameters in the function call
 ```
 Usage examples:
 ```sh
-filter_geneTF(geneTFprior, gene_list)
-filter_geneTF(geneTFprior, gene_list, gene_lowbound=20)
+filtered_geneTF <- filter_geneTF(geneTFprior, gene_list)
+filtered_geneTF <- filter_geneTF(geneTFprior, gene_list, gene_lowbound=20)
 
 ```
 Users can download "geneTFprior.csv" from "./data-raw" folder. We archived the process on how we generated this prior matrix in the "./code/genereate_geneTFprior.R".
@@ -83,4 +83,4 @@ usage example:
 ```sh
 geneTFprior <- load_geneTF("./data-raw/geneTFprior.csv")
 ```
->>>>>>> 82e3409608e9a445cb5356c72a6db450cc0ee3c8
+
